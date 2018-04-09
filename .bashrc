@@ -5,15 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-source /usr/share/nvm/init-nvm.sh
-
-eval $(thefuck --alias)
-
-alias ls='ls --color=auto'
-alias pbcopy='xclip -i -selection clipboard'
-alias pbpaste='xclip -o -selection clipboard'
-alias open='xdg-open &>/dev/null'
-alias package-list='comm -23 <(pacman -Qqe) <(pacman -Qqg base base-devel xorg-apps xfce4 xfce4-goodies fcitx-im texlive-most | sort)'
+alias gairon-copy='source ~aotani.t.aa/local/bin/gairon-copy.sh'
+alias dte='~/dte-1.6/dte'
+alias nvim='~/nvim-osx64/bin/nvim'
 
 export EDITOR=nvim
 export VISUAL=nvim

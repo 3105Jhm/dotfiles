@@ -5,7 +5,7 @@
 [color]
 	ui = auto
 [core]
-	editor = nvim
+	editor = ~/nvim-osx64/bin/nvim
 [fetch]
 	prune = true
 [alias]
