@@ -1,7 +1,6 @@
 [user]
-	name = Syu Takayama
-	email = syu.takayama@gmail.com
-	signingKey = 655C614BC5509DDCE5D6E7B6B4C0E3634D1D7747
+	name = Shu Takayama
+	email = s-takayama@mercari.com
 [color]
 	ui = auto
 [core]
@@ -9,9 +8,9 @@
 [fetch]
 	prune = true
 [alias]
-  co = checkout
-  graph = log --graph
-  diffi = diff --cached
-  diffw = diff --word-diff
+	co = checkout
+	graph = log --graph
+	diffi = diff --cached
+	diffw = diff --word-diff
 [url "git@git.trapti.tech:"]
-       insteadOf = https://git.trapti.tech/
+	insteadOf = https://git.trapti.tech/
