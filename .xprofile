@@ -4,4 +4,5 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 eval $(ssh-agent)
 ssh-add ~/.ssh/id_ed25519
+thunar --daemon &
 compton -b
